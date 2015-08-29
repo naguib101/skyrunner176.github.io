@@ -1,18 +1,63 @@
 <!DOCTYPE html>
 <html>
 	<head>
+		<link href='http://fonts.googleapis.com/css?family=Nova+Mono' rel='stylesheet' type='text/css'>
+		<link rel='stylesheet' type="text/css" href="css/bootstrap.css">
 		<meta charset="UTF-8">
-			<title>~~NAGUIB BOUCHIBI</title>
-			<LINK rel=stylesheet type="text/css" href="css/bootstrap.css">
+		<title>~~NAGUIB BOUCHIBI</title>
 	</head>
-
 	<body>
-		<div class="opacity-back">
-		<!--	<a class="btn btn-default" href="#" role="button">BLOP</a>
-			<button class="btn btn-default" type="submit">Button</button>
-			<input class="btn btn-default" type="button" value="Input">
-			<input class="btn btn-default" type="submit" value="Submit"> -->
+	<script type="text/javascript" src="js/angular.min.js"></script>
+		<script type="text/javascript">
+<!--
+ var imlocation = "img/";
+ var currentdate = 0;
+ var image_number = 0;
+ function ImageArray (n) {
+   this.length = n;
+   for (var i =1; i <= n; i++) {
+     this[i] = ' '
+   }
+ }
+ image = new ImageArray(2)
+ image[0] = 'back1.jpeg'
+ image[1] = 'back2.jpg'
+ var rand = 60/image.length
+ function randomimage() {
+ 	currentdate = new Date()
+ 	image_number = currentdate.getSeconds()
+ 	image_number = Math.floor(image_number/rand)
+ 	return(image[image_number])
+ }
+ document.write("<style>html {background-image: url('" + imlocation + randomimage() + "')}</style>");
+//-->
+</script>
+		<div class="menuTrans">
+		</div>
+		<div class="menuText">
+			<!-- <div class="table-responsive"> -->
+ 				<table class="table">
+   					<tr class="desktop">
+				    	<td align="center">Who am I ?</td>
+				    	<td align="center">Projects</td>
+				    	<td align="center">Contact</td> 
+					</tr>
+  				</table>
+			<!-- </div> -->
+		</div>
+		<div class="mobile">
+			<table class="table">
+					<tr>
+						<td>Who am I ?</td>
+					</tr>
+					<tr>
+						<td>Projects</td>
+					</tr>
+					<tr>
+						<td>Contact</td>
+					</tr>
+
+			</table>
 		</div>
 	</body>
-
 </html>
