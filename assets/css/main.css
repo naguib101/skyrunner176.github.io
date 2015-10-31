@@ -656,6 +656,10 @@ img {
   background: #007bb6;
   border: 1px solid #007bb6;
 }
+#feedback .address .social-icon li a .fa-github:hover {
+  background: #0D2636;
+  border: 1px solid #0D2636;
+}
 /* Feedback Section End */
 /* Footer Section Start */
 #footer {
