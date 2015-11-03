@@ -39,7 +39,15 @@ ul li {
 img {
   max-width: 100%;
   height: auto;
+  max-height: 100%;
 }
+
+.circular {
+  border-radius: 150px;
+  -webkit-border-radius: 150px;
+  -moz-border-radius: 150px;
+  }
+
 .section-title {
   text-align: left;
   font-size: 52px;
@@ -421,11 +429,11 @@ img {
   border: none;
 }
 /* Testimonial Section End */
-/* Clients Section Start */
-#clients .section-title i {
+/* events Section Start */
+#events .section-title i {
   color: #3B6DFF;
 }
-#clients #clients-carousel a img {
+#events #events-carousel a img {
   opacity: 0.5;
   filter: grayscale(100%);
   -webkit-filter: grayscale(100%);
@@ -433,7 +441,7 @@ img {
   -webkit-transition: all .6s ease;
   filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale");
 }
-#clients #clients-carousel a img:hover {
+#events #events-carousel a img:hover {
   filter: grayscale(0%);
   -webkit-filter: grayscale(0%);
   filter: gray;
@@ -441,7 +449,7 @@ img {
   filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'1 0 0 0 0, 0 1 0 0 0, 0 0 1 0 0, 0 0 0 1 0\'/></filter></svg>#grayscale");
   opacity: 1.0;
 }
-/* Clients Section End */
+/* events Section End */
 /* Skills Section Start */
 #skills {
   background: url(../img/backgrounds/skill-bg.jpg);
@@ -490,14 +498,14 @@ img {
 #blog .large {
   position: absolute;
   width: 200px;
-  height: 196px;
+  height: 56px;
   right: 0px;
   bottom: 0px;
   background: rgba(255, 255, 255, 0.9);
   padding: 15px;
 }
 #blog .large p {
-  padding-top: 10px;
+  padding-top: 8px;
 }
 #blog .blog-item {
   position: relative;
@@ -510,7 +518,7 @@ img {
 }
 #blog .blog-item .content {
   background: #d8e5dd;
-  width: 195px;
+  width: 88px;
   height: 230px;
   position: absolute;
   padding: 15px;
@@ -527,9 +535,7 @@ img {
   text-decoration: none;
   padding-bottom: 12px;
 }
-#blog .title:hover {
-  color: #3B6DFF;
-}
+
 /* Blog Section End */
 /* Feedback Section Start */
 #feedback {

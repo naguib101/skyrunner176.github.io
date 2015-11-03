@@ -28,7 +28,7 @@ jQuery(document).ready(function( $ ) {
         fill: { gradient: ["#FFFFFF"] }
       });
         $('.two').circleProgress({
-          value: 0.75,
+          value: 0.60,
         });
         $('.three').circleProgress({
           value: 0.50,
@@ -36,9 +36,12 @@ jQuery(document).ready(function( $ ) {
         $('.four').circleProgress({
           value: 0.90,
         });
+        $('.five').circleProgress({
+          value: 0.30,
+        });
 
-   //Clients carousel Slider
-    $('#clients-carousel').owlCarousel({
+   //events carousel Slider
+    $('#events-carousel').owlCarousel({
         navigation: false, // Show next and prev buttons
         slideSpeed: 400,
         paginationSpeed: 800,
