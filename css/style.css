@@ -1,3 +1,14 @@
+#linkVisit {
+    margin-top: 8%;
+}
+#projects {
+    margin-top: -100px;
+}
+
+.highlight {
+    color: #28EEAA;
+}
+
 #logo {
     display: inline-block; 
     margin-right: 10px;
@@ -8,10 +19,27 @@
     letter-spacing: 3px;
 }
 
+#noLink {
+    margin-top: 8%;
+}
+
 #noLink:hover {
     cursor: not-allowed;
 }
 
+#heart {
+    color: red;
+}
+
+#footer {
+    margin-top: 10%;
+}
+#footerText1 {
+    float: left;
+}
+#footerText2 {
+    float: right;
+}
 .projectTitle {
     font-family: 'Montserrat-light';
 }
