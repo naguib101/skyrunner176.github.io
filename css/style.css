@@ -59,6 +59,11 @@
     float: left;
 }
 
+#project4 {
+    margin-left: 47px;
+    float: right;
+}
+
 .projectImg {
     width: 50%;
     border-radius: 3px;
